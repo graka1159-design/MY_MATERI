@@ -667,3 +667,174 @@ https://www.tooplate.com/view/2119-gymso-fitness
       display: block;
     }
   }
+
+.schedule-table {
+    width: 100% !important;
+    display: table !important;
+    table-layout: fixed;
+}
+
+.schedule-table th, 
+.schedule-table td {
+    text-align: center;
+    vertical-align: middle !important;
+    padding: 15px !important;
+}
+
+@media (min-width: 1200px) {
+    .schedule-table th {
+        font-size: 18px;
+    }
+    .schedule-table td strong {
+        font-size: 16px;
+        display: block;
+    }
+    .schedule-table td span {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 991px) {
+    .schedule-table {
+        display: block !important;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .schedule-table th, 
+    .schedule-table td {
+        min-width: 130px;
+        padding: 10px !important;
+    }
+    
+    .schedule-table td small {
+        font-size: 11px;
+    }
+.schedule-table {
+    width: 100% !important;
+    display: table !important;
+    table-layout: fixed;
+}
+
+.schedule-table th, 
+.schedule-table td {
+    text-align: center;
+    vertical-align: middle !important;
+    padding: 15px !important;
+}
+
+@media (min-width: 1200px) {
+    .schedule-table th {
+        font-size: 18px;
+    }
+    .schedule-table td strong {
+        font-size: 16px;
+        display: block;
+    }
+    .schedule-table td span {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 991px) {
+    .schedule-table {
+        display: block !important;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .schedule-table th, 
+    .schedule-table td {
+        min-width: 130px;
+        padding: 10px !important;
+    }
+    
+    .schedule-table td small {
+        font-size: 11px;
+    }
+.schedule-table {
+    width: 100% !important;
+    display: table !important;
+    table-layout: fixed;
+}
+
+.schedule-table th, 
+.schedule-table td {
+    text-align: center;
+    vertical-align: middle !important;
+    padding: 15px !important;
+}
+
+@media (min-width: 1200px) {
+    .schedule-table th {
+        font-size: 18px;
+    }
+    .schedule-table td strong {
+        font-size: 16px;
+        display: block;
+    }
+    .schedule-table td span {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 991px) {
+    .schedule-table {
+        display: block !important;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .schedule-table th, 
+    .schedule-table td {
+        min-width: 130px;
+        padding: 10px !important;
+    }
+    
+    .schedule-table td small {
+        font-size: 11px;
+    }
+
+  .schedule-table {
+    width: 100% !important;
+    display: table !important;
+    table-layout: fixed;
+  }
+
+  .schedule-table th, 
+.schedule-table td {
+    text-align: center;
+    vertical-align: middle !important;
+    padding: 15px !important;
+}
+
+@media (min-width: 1200px) {
+    .schedule-table th {
+        font-size: 18px;
+    }
+    .schedule-table td strong {
+        font-size: 16px;
+        display: block;
+    }
+    .schedule-table td span {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 991px) {
+    .schedule-table {
+        display: block !important;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .schedule-table th, 
+    .schedule-table td {
+        min-width: 130px;
+        padding: 10px !important;
+    }
+    
+    .schedule-table td small {
+        font-size: 11px;
+    }
+}
