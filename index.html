@@ -270,8 +270,7 @@
                              </div>
 
                              <div class="col-lg-12 py-5 col-md-12 col-12">
-                                 <table class="table table-bordered table-responsive schedule-table" data-aos="fade-up" data-aos-delay="300">
-
+                                 <table id="timetable" class="table table-bordered table-responsive schedule-table" data-aos="fade-up" data-aos-delay="300">
                                      <thead class="thead-light">
                                          <th><i class="fa fa-calendar"></i></th>
                                          <th>Mon</th>
@@ -477,6 +476,24 @@
      <script src="js/aos.js"></script>
      <script src="js/smoothscroll.js"></script>
      <script src="js/custom.js"></script>
-
+	 <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const d = new Date();
+        const day = d.getDay(); 
+        const table = document.getElementById("timetable");
+        
+        if (table && day > 0 && day <= 6) {
+            const rows = table.getElementsByTagName("tr");
+            for (let i = 0; i < rows.length; i++) {
+                const cells = rows[i].children;
+                if (cells[day]) {
+                    cells[day].style.backgroundColor = "rgba(241, 95, 42, 0.12)";
+                    cells[day].style.border = "2px solid #f15f2a";
+                    cells[day].style.transition = "all 0.3s ease";
+                }
+            }
+        }
+    });
+    </script>
 </body>
 </html>
