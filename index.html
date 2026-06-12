@@ -19,11 +19,10 @@
  <meta charset="UTF-8">
     <title>JUST DO IT</title>
     
-    <link rel="icon" type="image/png" href="images/LOGO.png">
+    <link class="icon" type="image/png" href="images/LOGO.png">
 </head>
 <body data-spy="scroll" data-target="#navbarNav" data-offset="50">
 
-    <!-- MENU BAR -->
     <nav class="navbar navbar-expand-lg fixed-top" style="overflow: visible;">
     
     <div class="container" style="position: relative; max-width: 100%; padding-left: 20px;"> 
@@ -71,7 +70,6 @@
     </nav>
 
 
-     <!-- HERO -->
      <section class="hero d-flex flex-column justify-content-center align-items-center" id="home" style="position: relative; overflow: hidden; height: 100vh;">
 
             <video autoplay loop muted playsinline style="position: absolute; top: 50%; left: 50%; min-width: 100%; min-height: 100%; width: auto; height: auto; z-index: 1; transform: translate(-50%, -50%); object-fit: cover;">
@@ -93,7 +91,7 @@
                                     <a href="#feature" class="btn custom-btn mt-3" data-aos="fade-up" data-aos-delay="600">Get started</a>
 
                                     <a href="#about" class="btn custom-btn bordered mt-3" data-aos="fade-up" data-aos-delay="700">learn more</a>
-                                   
+                                    
                               </div>
                          </div>
 
@@ -136,10 +134,9 @@
                      </div>
                 </div>
             </div>
-    </>
+     </section>
 
 
-     <!-- ABOUT -->
      <section class="about section" id="about">
                <div class="container">
                     <div class="row">
@@ -192,7 +189,6 @@
      </section>
 
 
-     <!-- CLASS -->
      <section class="class section" id="class">
                <div class="container">
                     <div class="row">
@@ -256,7 +252,6 @@
      </section>
 
 
-     <!-- SCHEDULE -->
      <section class="schedule section" id="schedule">
                <div class="container">
                     <div class="row">
@@ -270,18 +265,20 @@
                              <div class="col-lg-12 py-5 col-md-12 col-12">
                                  <table id="timetable" class="table table-bordered table-responsive schedule-table" data-aos="fade-up" data-aos-delay="300">
                                      <thead class="thead-light">
-                                         <th><i class="fa fa-calendar"></i></th>
-                                         <th>Mon</th>
-                                         <th>Tue</th>
-                                         <th>Wed</th>
-                                         <th>Thu</th>
-                                         <th>Fri</th>
-                                         <th>Sat</th>
-										 <th>Sun</th>
+                                         <tr>
+                                             <th><i class="fa fa-calendar"></i></th>
+                                             <th>Mon</th>
+                                             <th>Tue</th>
+                                             <th>Wed</th>
+                                             <th>Thu</th>
+                                             <th>Fri</th>
+                                             <th>Sat</th>
+                                             <th>Sun</th>
+                                         </tr>
                                      </thead>
 
                                      <tbody>
-										 <tr>
+                                         <tr>
                                             <td><small>4:00 am</small></td>
                                             <td>
                                                 <strong>Pray</strong>
@@ -303,12 +300,17 @@
                                                 <strong>Pray</strong>
                                                 <span>4:00 am - 5:00 am</span>
                                             </td>
-									 		<td>
+                                             <td>
+                                                <strong>Pray</strong>
+                                                <span>4:00 am - 5:00 am</span>
+                                            </td>
+                                             <td>
                                                 <strong>Pray</strong>
                                                 <span>4:00 am - 5:00 am</span>
                                             </td>
                                          </tr>
-										 <td><small>5:00 am</small></td>
+                                         <tr>
+                                             <td><small>5:00 am</small></td>
                                             <td>
                                                 <strong>Pray</strong>
                                                 <span>5:00 am - 6:00 am</span>
@@ -325,7 +327,7 @@
                                                 <strong>Prepare</strong>
                                                 <span>5:00 am - 6:00 am</span>
                                             </td>
-										 	<td>
+                                             <td>
                                                 <strong>Prepare</strong>
                                                 <span>5:00 am - 6:00 am</span>
                                             </td>
@@ -333,29 +335,26 @@
                                                 <strong>Prepare</strong>
                                                 <span>5:00 am - 6:00 am</span>
                                             </td>
-									 		<td>
+                                             <td>
                                                 <strong>Prepare</strong>
                                                 <span>5:00 am - 6:00 am</span>
                                             </td>
+                                         </tr>
                                          <tr>
                                             <td><small>7:00 am</small></td>
                                             <td>
                                                 <strong>School</strong>
                                                 <span>7:00 am - 15:00 am</span>
                                             </td>
-											 <td>
+                                             <td>
                                                 <strong>School</strong>
                                                 <span>7:00 am - 15:00 am</span>
                                             </td>
-											 <td>
+                                             <td>
                                                 <strong>School</strong>
                                                 <span>7:00 am - 15:00 am</span>
                                             </td>
-											 <td>
-                                                <strong>School</strong>
-                                                <span>7:00 am - 15:00 am</span>
-                                            </td>
-                                            <td>
+                                             <td>
                                                 <strong>School</strong>
                                                 <span>7:00 am - 15:00 am</span>
                                             </td>
@@ -363,7 +362,11 @@
                                                 <strong>School</strong>
                                                 <span>7:00 am - 15:00 am</span>
                                             </td>
-											 <td>
+                                            <td>
+                                                <strong>School</strong>
+                                                <span>7:00 am - 15:00 am</span>
+                                            </td>
+                                             <td>
                                                 <strong>School</strong>
                                                 <span>7:00 am - 15:00 am</span>
                                             </td>
@@ -436,7 +439,6 @@
      </section>
 
 
-     <!-- CONTACT -->
      <section class="contact section" id="contact">
           <div class="container">
                <div class="row">
@@ -459,13 +461,7 @@
                         <h2 class="mb-4" data-aos="fade-up" data-aos-delay="600">Where you can <span>find us</span></h2>
 
                         <p data-aos="fade-up" data-aos-delay="800"><i class="fa fa-map-marker mr-1"></i> 120-240 Rio de Janeiro - State of Rio de Janeiro, Brazil</p>
-<!-- How to change your own map point
-	1. Go to Google Maps
-	2. Click on your location point
-	3. Click "Share" and choose "Embed map" tab
-	4. Copy only URL and paste it within the src="" field below
--->
-                        <div class="google-map" data-aos="fade-up" data-aos-delay="900">
+<div class="google-map" data-aos="fade-up" data-aos-delay="900">
                            <iframe src="https://maps.google.com/maps?q=Av.+Lúcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" width="1920" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                         </div>
                     </div>
@@ -475,13 +471,12 @@
      </section>
 
 
-     <!-- FOOTER -->
      <footer class="site-footer">
           <div class="container">
                <div class="row">
 
                     <div class="ml-auto col-lg-4 col-md-5">
-                        <p class="copyright-text">Copyright &copy; 2020 Gymso Fitness Co.
+                        <p class="copyright-text">Copyright © 2020 Gymso Fitness Co.
                         
                         <br>Design: <a href="https://www.tooplate.com">Tooplate</a></p>
                     </div>
@@ -499,7 +494,6 @@
           </div>
      </footer>
 
-    <!-- Modal -->
     <div class="modal fade" id="membershipForm" tabindex="-1" role="dialog" aria-labelledby="membershipFormLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
 
@@ -509,7 +503,7 @@
             <h2 class="modal-title" id="membershipFormLabel">Membership Form</h2>
 
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
 
@@ -527,7 +521,7 @@
 
                 <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="signup-agree">
-                    <label class="custom-control-label text-small text-muted" for="signup-agree">I agree to the <a href="#">Terms &amp;Conditions</a>
+                    <label class="custom-control-label text-small text-muted" for="signup-agree">I agree to the <a href="#">Terms &Conditions</a>
                     </label>
                 </div>
             </form>
@@ -539,13 +533,12 @@
       </div>
     </div>
 
-     <!-- SCRIPTS -->
      <script src="js/jquery.min.js"></script>
      <script src="js/bootstrap.min.js"></script>
      <script src="js/aos.js"></script>
      <script src="js/smoothscroll.js"></script>
      <script src="js/custom.js"></script>
-	 <script>
+     <script>
     document.addEventListener("DOMContentLoaded", function () {
         const d = new Date();
         const day = d.getDay(); 
