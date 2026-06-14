@@ -377,3 +377,9 @@ body {
     text-align: center;
     color: white;
 }
+.main-website-content {
+    display: none; /* Memaksa isi website asli lu sembunyi total di awal */
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+}
