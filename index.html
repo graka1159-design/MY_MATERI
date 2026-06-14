@@ -20,6 +20,13 @@
     <title>JUST DO IT</title>
     
     <link class="icon" type="image/png" href="images/LOGO.png">
+     <script>
+        // Cek ke memori browser, apakah agen sudah login/terautentikasi atau belum
+        if (sessionStorage.getItem("agent_authenticated") !== "true") {
+            // Jika belum login, paksa browser pindah ke folder Login lu
+            window.location.href = "Login/"; 
+        }
+    </script>
 </head>
 <body data-spy="scroll" data-target="#navbarNav" data-offset="50">
 
