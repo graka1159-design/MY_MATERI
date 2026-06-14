@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURYA INTELLIGENCE DEPARTMENT - LOGIN MAIN GATE</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="security-gate">
+        <div class="hud-box" id="mainHudBox">
+            
+            <div class="status-bar">
+                <span id="sysStatusText">[ SYSTEM LOCKED ]</span>
+            </div>
+
+            <h1 id="mainAlertTitle">ACCESS NEEDED</h1>
+            
+            <p id="subAlertTitle">SKADRON 16 TACTICAL COMMAND</p>
+
+            <div id="formContainer">
+                <form onsubmit="executeAgentAuth(event)">
+                    <div class="form-group mb-3">
+                        <label class="terminal-label">OPERATIVE ID (NAME) :</label>
+                        <input type="text" id="agentNameInput" class="form-control intel-input" placeholder="ENTER AGENT NAME..." required autocomplete="off">
+                    </div>
+                    <div class="form-group mb-4">
+                        <label class="terminal-label">ACCESS ENCRYPTION KEY :</label>
+                        <input type="password" class="form-control intel-input" placeholder="••••••••••••" required>
+                    </div>
+                    <button type="submit" class="btn-military-glow">
+                        DECRYPT & DEPLOY
+                    </button>
+                </form>
+            </div>
+
+            <div id="loadingContainer">
+                <div class="cyber-spinner"></div>
+                <span id="loadStatusText">BYPASSING MAINFRAME ENCRYPTION...</span>
+            </div>
+
+            <div id="agentCardModal" class="agent-card-popup">
+                <img src="images/LOGO.png" alt="Jet WM" class="card-jet-giant-wm">
+
+                <div class="card-top-bar">
+                    <span class="protocol-title">FEDERAL INTELLIGENCE RECONNAISSANCE PROTOCOL</span>
+                    <span class="status-tag">SYSTEM OPEN</span>
+                </div>
+                
+                <div class="card-grid-system">
+                    
+                    <div class="shield-photo-container">
+                        <div class="scan-label">SYS_SCAN: 100%</div>
+                        <img src="images/LOGO.png" class="jet-photo-display" alt="Radar Jet">
+                        <div class="bio-ok-tag">BIOMETRIC OK</div>
+                    </div>
+                    
+                    <div class="cyber-data-container">
+                        <div class="cyber-data-row">
+                            <div class="cyber-field-box">
+                                <span class="label-tactical">NAME / OPERATIVE ID</span>
+                                <div class="value-tactical" style="color: var(--cyber-cyan);" id="cardAgentName">MAULANA ARKAN RAFIF SURYA</div>
+                            </div>
+                        </div>
+                        <div class="cyber-data-row split">
+                            <div class="cyber-field-box">
+                                <span class="label-tactical">RANK</span>
+                                <div class="value-tactical">FIELD SPECIALIST</div>
+                            </div>
+                            <div class="cyber-field-box">
+                                <span class="label-tactical">DEPARTMENT</span>
+                                <div class="value-tactical">CYBER RECON</div>
+                            </div>
+                        </div>
+                        <div class="cyber-data-row split">
+                            <div class="cyber-field-box">
+                                <span class="label-tactical">CODE NAME</span>
+                                <div class="value-tactical" style="color: #ffb700;">STRIX.</div>
+                            </div>
+                            <div class="cyber-field-box">
+                                <span class="label-tactical">DIVISION ASSIGNMENT</span>
+                                <div class="value-tactical">SKADRON 16</div>
+                            </div>
+                        </div>
+                        <div class="cyber-data-row split">
+                            <div class="cyber-field-box">
+                                <span class="label-tactical">SERIAL NUMBER</span>
+                                <div class="value-tactical" style="font-size: 0.85rem; color: #8899a6;">SID-8829-ALPHA</div>
+                            </div>
+                            <div class="cyber-field-box">
+                                <span class="label-tactical">EXPIRY DATE</span>
+                                <div class="value-tactical" style="color: #f13a11;">[ UNLIMITED ]</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="cyber-footer-grid">
+                    <div class="cyber-field-box signature-box">
+                        <span class="label-tactical" style="color: var(--cyber-green);">SIGNATURE SYSTEM AUTHORIZATION</span>
+                        <div id="welcomeAgentText"></div>
+                    </div>
+                    <div class="fingerprint-box">
+                        <div class="bio-sig-label">BIO_SIG</div>
+                        <img src="images/image_ef59dd.png" class="fingerprint-img-target" alt="Biometric Verified">
+                    </div>
+                </div>
+
+            </div>
+            </div>
+    </div>
+
+    <div class="main-website-content">
+        <h1>SELAMAT DATANG DI MAINFRAME UTAMA</h1>
+        <p>Ini adalah isi halaman website asli lu setelah gate login di atas kebuka otomatis, Bre.</p>
+    </div>
+
+    <script src="js/welcome.js"></script>
+</body>
+</html>
