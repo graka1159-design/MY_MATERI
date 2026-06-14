@@ -60,3 +60,4 @@ function executeAgentAuth(event) {
 
     }, 3000);
 }
+document.querySelector('.main-website-content').style.display = 'block';
