@@ -45,19 +45,15 @@ function executeAgentAuth(event) {
         // Munculkan ID Card dengan menambahkan class 'show'
         document.getElementById('agentCardModal').classList.add('show');
 
-        // 3. KUNCI TIMER 15 DETIK: Beri Waktu Tampil HUD, Lalu Buka Total Tirai Loginnya
+        // 3. KUNCI TIMER 15 DETIK: Beri Waktu Tampil HUD, Lalu PAKSA LEMPAR KE WEB UTAMA GYMSO
         setTimeout(() => {
-            const gateScreen = document.getElementById('security-gate');
-            gateScreen.style.opacity = '0';
-            gateScreen.style.transform = 'scale(1.05)';
+            // A. Kasih tiket tanda sudah login ke browser
+            sessionStorage.setItem("agent_authenticated", "true");
+
+            // B. TEMBAK LANGSUNG LINK UTAMA REPO LU (BIAR GAK SALAH KEPENTAL)
+            window.location.replace("https://graka1159-design.github.io/MY_MATERI/"); 
             
-            // Hilangkan element dari DOM & buka scroll body utama
-            setTimeout(() => {
-                gateScreen.style.display = 'none';
-                document.body.style.overflow = 'auto';
-            }, 800);
         }, 15000);
 
     }, 3000);
 }
-document.querySelector('.main-website-content').style.display = 'block';
