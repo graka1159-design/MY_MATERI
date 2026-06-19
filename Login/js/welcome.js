@@ -19,7 +19,7 @@ function executeAgentAuth(event) {
     loadWrap.innerHTML = `
         <div style="border: 2px solid #00ffff; background: rgba(0,0,0,0.9); padding: 12px; max-width: 650px; margin: 0 auto; box-shadow: 0 0 20px rgba(0,255,255,0.2); font-family: 'Courier New', monospace; color: #00ffff;">
             <div style="background: rgba(0,255,255,0.15); padding: 4px 10px; font-size: 0.75rem; border-bottom: 2px solid #00ffff; margin-bottom: 10px; display: flex; justify-content: space-between;">
-                <span>[SYSTEM] CONNECTED TO YOGYAKARTA AIR FORCE ACADEMY</span>
+                <span>[P|RANAS SERVER] CONNECTED TO YOGYAKARTA TACTICAL NODE-1159</span>
                 <span>LAT: -7.7956° | LON: 110.3695°</span>
             </div>
             <div style="display: flex; gap: 10px; min-height: 180px;">
@@ -49,7 +49,7 @@ function executeAgentAuth(event) {
                 <div id="satSpecsBox" style="flex: 1; border: 1px solid #00ffff; background: rgba(0,20,20,0.7); padding: 8px; font-size: 0.65rem; line-height: 1.5; text-align: left;">
                     <p style="color: #00ff66; margin: 2px 0;">> PATH: ESTABLISHED</p>
                     <p style="margin: 2px 0;">> SATELLITE: ST-16_GATOTKACA</p>
-                    <p style="margin: 2px 0;">> TARGET: AREA AAU JOGJA</p>
+                    <p style="margin: 2px 0;">> TARGET: AIR FORCE ACADEMY - JOGJA</p>
                     <p style="margin: 2px 0;">> DOWNLINK: 4.5 GBPS</p>
                     <p style="color: #ffaa00; animation: textBlink 1s infinite; margin: 2px 0;">> DRONE FEED: ACTIVE</p>
                 </div>
